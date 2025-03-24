@@ -29,7 +29,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Light dark overlay */
+    background: rgba(0, 0, 0, 0.5); /* Darker overlay */
     z-index: 1;
 }
 
@@ -55,15 +55,18 @@ body {
 /* Profile Text */
 .profile-info h1 {
     font-size: 26px;
-    color: white;
+    color: #FFD700; /* Gold for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Dark shadow */
     margin-bottom: 5px;
 }
 
 .profile-info p {
     font-size: 18px;
-    color: white;
+    color: #FFD700; /* Gold color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     text-align: center;
 }
+
 
 /* Navigation Menu */
 nav {
@@ -96,8 +99,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc70;
+    color: #FFD700; /* Matching gold color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
+
 
 /* Section Styling */
 .section {
