@@ -3,9 +3,10 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #a8e063, #56ab2f)!important;
+    background: linear-gradient(to right, #87CEFA, #4682B4) !important; /* Light blue gradient */
     color: #333;
 }
+
 
 /* Header Background Image */
 .header-bg {
